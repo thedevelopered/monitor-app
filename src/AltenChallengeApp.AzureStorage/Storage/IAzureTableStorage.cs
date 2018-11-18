@@ -1,7 +1,6 @@
 ﻿using AltenChallengeApp.AzureStorage.Entity;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Microsoft.WindowsAzure.Storage.Table;
 
 namespace AltenChallengeApp.AzureStorage.Storage
 {

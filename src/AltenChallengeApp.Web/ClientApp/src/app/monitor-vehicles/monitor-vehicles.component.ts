@@ -19,9 +19,8 @@ export class MonitorVehiclesComponent implements OnInit {
   }
 
 
-  // real time statuses
-  ngOnInit(): void {
 
+  ngOnInit(): void {
     let builder = new HubConnectionBuilder();
 
     // as per setup in the startup.cs

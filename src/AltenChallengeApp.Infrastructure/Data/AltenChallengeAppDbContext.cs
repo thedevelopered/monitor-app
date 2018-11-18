@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace AltenChallengeApp.Infrastructure.Data
 {
-    public class AltenChallengeAppDbContext : Microsoft.EntityFrameworkCore.DbContext
+    public class AltenChallengeAppDbContext : DbContext
     {
         public AltenChallengeAppDbContext(DbContextOptions<AltenChallengeAppDbContext> options) : base(options) { }
 

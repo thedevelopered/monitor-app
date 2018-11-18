@@ -1,5 +1,4 @@
-﻿using System;
-using AltenChallengeApp.AzureStorage.Entity;
+﻿using AltenChallengeApp.AzureStorage.Entity;
 using AltenChallengeApp.AzureStorage.Settings;
 using Microsoft.WindowsAzure.Storage;
 using Microsoft.WindowsAzure.Storage.Auth;
@@ -64,25 +63,6 @@ namespace AltenChallengeApp.AzureStorage.Storage
 
             return results;
         }
-
-        //public async Task<List<T>> GetList(TableQuery<T> query)
-        //{
-        //    Table
-        //    CloudTable table = await GetTableAsync();
-
-        //    Query
-        //    List<T> results = new List<T>();
-
-        //    TableContinuationToken continuationToken = null;
-        //    do
-        //    {
-        //        var queryResult = await table.ExecuteQuerySegmentedAsync(query, continuationToken).ConfigureAwait(false);
-        //        results.AddRange(queryResult.Results);
-        //        continuationToken = queryResult.ContinuationToken;
-        //    } while (continuationToken != null);
-
-        //    return results;
-        //}
 
         public async Task<T> GetItem(string partitionKey, string rowKey)
         {

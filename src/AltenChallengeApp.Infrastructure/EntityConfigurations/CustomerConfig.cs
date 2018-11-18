@@ -2,7 +2,6 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;
-using System.Collections.Generic;
 
 namespace AltenChallengeApp.Infrastructure.EntityConfigurations
 {
@@ -47,11 +46,7 @@ namespace AltenChallengeApp.Infrastructure.EntityConfigurations
                     City = "Uppsala",
                     Country = "Sweden",
                     CreatedAt = DateTime.Now,
-                    UpdatedAt = DateTime.Now,
-                    Vehicles = new List<Vehicle>()
-                    {
-
-                    }
+                    UpdatedAt = DateTime.Now
                 });
         }
     }

@@ -1,6 +1,5 @@
 ﻿using AltenChallengeApp.AzureStorage.Settings;
 using AltenChallengeApp.AzureStorage.Storage;
-using AltenChallengeApp.Core.Entities;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Configuration;
 using AltenChallengeApp.AzureStorage.Entity;

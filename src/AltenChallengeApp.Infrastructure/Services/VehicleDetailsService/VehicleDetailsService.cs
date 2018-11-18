@@ -23,10 +23,7 @@ namespace AltenChallengeApp.Infrastructure.Services.VehicleDetailsService
 
         public async Task<IEnumerable<GetVehicleDetailsOutput>> GetAll()
         {
-            var lowerlimit = DateTimeOffset.Now.AddMinutes(-1);
-
-            var query = TableQuery.GenerateFilterConditionForDate("Timestamp", QueryComparisons.GreaterThanOrEqual, lowerlimit);
-
+            var query = TableQuery.GenerateFilterConditionForDate("Timestamp", QueryComparisons.GreaterThanOrEqual, DateTimeOffset.Now.AddMinutes(-1));
             var vehicleDetails = await _repository.GetList(query);
             return _mapper.Map<IEnumerable<GetVehicleDetailsOutput>>(vehicleDetails);
         }
