@@ -5,17 +5,17 @@ VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AltenChallengeApp.Core", "AltenChallengeApp.Core\AltenChallengeApp.Core.csproj", "{D18A99CF-46AF-41F9-A7EF-2EDF7C1FF799}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AltenChallengeApp.Infrastructure", "AltenChallengeApp.Infrastructure\AltenChallengeApp.Infrastructure.csproj", "{247AB433-32BF-4B01-982F-42ED24C1278F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AltenChallengeApp.Infrastructure", "src\AltenChallengeApp.Infrastructure\AltenChallengeApp.Infrastructure.csproj", "{247AB433-32BF-4B01-982F-42ED24C1278F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AltenChallengeApp.AzureStorage", "AltenChallengeApp.AzureStorage\AltenChallengeApp.AzureStorage.csproj", "{D74241DD-6598-4182-B31F-E35985268A91}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AltenChallengeApp.AzureStorage", "src\AltenChallengeApp.AzureStorage\AltenChallengeApp.AzureStorage.csproj", "{D74241DD-6598-4182-B31F-E35985268A91}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AltenChallengeApp.Web", "AltenChallengeApp.Web\AltenChallengeApp.Web.csproj", "{2EB34923-06DE-442E-AD46-634F5CF683B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AltenChallengeApp.Web", "src\AltenChallengeApp.Web\AltenChallengeApp.Web.csproj", "{2EB34923-06DE-442E-AD46-634F5CF683B5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{74EEAAD8-239D-4E1D-8112-755A3CE87F66}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0F681973-EBB6-481E-AC32-9E1D7CBD1A34}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AltenChallengeApp.Tests", "AltenChallengeApp.Tests\AltenChallengeApp.Tests.csproj", "{FEC8E4DB-46D7-4EEC-9E7E-C067E05D3113}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AltenChallengeApp.Tests", "tests\AltenChallengeApp.Tests\AltenChallengeApp.Tests.csproj", "{FEC8E4DB-46D7-4EEC-9E7E-C067E05D3113}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
