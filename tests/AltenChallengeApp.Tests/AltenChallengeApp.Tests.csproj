@@ -16,10 +16,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\AltenChallengeApp.AzureStorage\AltenChallengeApp.AzureStorage.csproj" />
-    <ProjectReference Include="..\AltenChallengeApp.Core\AltenChallengeApp.Core.csproj" />
-    <ProjectReference Include="..\AltenChallengeApp.Infrastructure\AltenChallengeApp.Infrastructure.csproj" />
-    <ProjectReference Include="..\AltenChallengeApp.Web\AltenChallengeApp.Web.csproj" />
+    <ProjectReference Include="..\..\src\AltenChallengeApp.AzureStorage\AltenChallengeApp.AzureStorage.csproj" />
+    <ProjectReference Include="..\..\src\AltenChallengeApp.Core\AltenChallengeApp.Core.csproj" />
+    <ProjectReference Include="..\..\src\AltenChallengeApp.Infrastructure\AltenChallengeApp.Infrastructure.csproj" />
   </ItemGroup>
 
   <ItemGroup>

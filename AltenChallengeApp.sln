@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AltenChallengeApp.Core", "AltenChallengeApp.Core\AltenChallengeApp.Core.csproj", "{D18A99CF-46AF-41F9-A7EF-2EDF7C1FF799}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AltenChallengeApp.Core", "src\AltenChallengeApp.Core\AltenChallengeApp.Core.csproj", "{D18A99CF-46AF-41F9-A7EF-2EDF7C1FF799}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AltenChallengeApp.Infrastructure", "src\AltenChallengeApp.Infrastructure\AltenChallengeApp.Infrastructure.csproj", "{247AB433-32BF-4B01-982F-42ED24C1278F}"
 EndProject
