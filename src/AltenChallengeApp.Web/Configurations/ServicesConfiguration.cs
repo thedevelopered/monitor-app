@@ -1,4 +1,5 @@
 ﻿using AltenChallengeApp.Core.Interfaces;
+using AltenChallengeApp.Core.Services;
 using AltenChallengeApp.Infrastructure.Data;
 using AltenChallengeApp.Infrastructure.Services.VehicleDetailsService;
 using AltenChallengeApp.Infrastructure.Services.VehicleService;

@@ -1,6 +1,6 @@
 ﻿using AltenChallengeApp.AzureStorage.Entity;
+using AltenChallengeApp.Core.Dtos.VehicleDetails;
 using AutoMapper;
-using AltenChallengeApp.Infrastructure.Services.VehicleDetailsService.Dtos;
 
 namespace AltenChallengeApp.Web.Configurations
 {

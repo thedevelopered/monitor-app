@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AltenChallengeApp.Core.Dtos.Vehicle;
 using AltenChallengeApp.Core.Entities;
 using AltenChallengeApp.Core.Interfaces;
-using AltenChallengeApp.Infrastructure.Services.VehicleDetailsService;
-using AltenChallengeApp.Infrastructure.Services.VehicleService.Dtos;
+using AltenChallengeApp.Core.Services;
 using AltenChallengeApp.Infrastructure.Specifications;
 using AutoMapper;
 

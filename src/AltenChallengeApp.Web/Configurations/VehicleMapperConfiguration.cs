@@ -1,6 +1,6 @@
-﻿using AutoMapper;
+﻿using AltenChallengeApp.Core.Dtos.Vehicle;
+using AutoMapper;
 using AltenChallengeApp.Core.Entities;
-using AltenChallengeApp.Infrastructure.Services.VehicleService.Dtos;
 
 namespace AltenChallengeApp.Web.Configurations
 {

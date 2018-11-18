@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using AltenChallengeApp.AzureStorage.Entity;
 using AltenChallengeApp.AzureStorage.Storage;
-using AltenChallengeApp.Infrastructure.Services.VehicleDetailsService.Dtos;
+using AltenChallengeApp.Core.Dtos.VehicleDetails;
+using AltenChallengeApp.Core.Services;
 using AutoMapper;
 using Microsoft.WindowsAzure.Storage.Table;
 

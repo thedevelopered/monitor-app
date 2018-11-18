@@ -1,9 +1,10 @@
 ﻿using AltenChallengeApp.Infrastructure.Services.VehicleDetailsService;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
-using AltenChallengeApp.Infrastructure.Services.VehicleDetailsService.Dtos;
+using AltenChallengeApp.Core.Dtos.Vehicle;
+using AltenChallengeApp.Core.Dtos.VehicleDetails;
+using AltenChallengeApp.Core.Services;
 using AltenChallengeApp.Infrastructure.Services.VehicleService;
-using AltenChallengeApp.Infrastructure.Services.VehicleService.Dtos;
 using AltenChallengeApp.Web.Hubs;
 using Microsoft.AspNetCore.SignalR;
 

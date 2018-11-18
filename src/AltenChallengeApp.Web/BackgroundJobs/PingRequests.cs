@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using AltenChallengeApp.Infrastructure.Services.VehicleDetailsService.Dtos;
-using AltenChallengeApp.Infrastructure.Services.VehicleService.Dtos;
+using AltenChallengeApp.Core.Dtos.Vehicle;
+using AltenChallengeApp.Core.Dtos.VehicleDetails;
 using Hangfire;
 using RestSharp;
 
