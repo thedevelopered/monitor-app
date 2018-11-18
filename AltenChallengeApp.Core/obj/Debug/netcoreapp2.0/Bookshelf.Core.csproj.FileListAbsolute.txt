@@ -1,0 +1,9 @@
+C:\Users\erdua\source\repos\BookShelf\Bookshelf\Bookshelf.Core\bin\Debug\netcoreapp2.0\Bookshelf.Core.deps.json
+C:\Users\erdua\source\repos\BookShelf\Bookshelf\Bookshelf.Core\bin\Debug\netcoreapp2.0\Bookshelf.Core.dll
+C:\Users\erdua\source\repos\BookShelf\Bookshelf\Bookshelf.Core\bin\Debug\netcoreapp2.0\Bookshelf.Core.pdb
+C:\Users\erdua\source\repos\BookShelf\Bookshelf\Bookshelf.Core\obj\Debug\netcoreapp2.0\Bookshelf.Core.csprojResolveAssemblyReference.cache
+C:\Users\erdua\source\repos\BookShelf\Bookshelf\Bookshelf.Core\obj\Debug\netcoreapp2.0\Bookshelf.Core.csproj.CoreCompileInputs.cache
+C:\Users\erdua\source\repos\BookShelf\Bookshelf\Bookshelf.Core\obj\Debug\netcoreapp2.0\Bookshelf.Core.AssemblyInfoInputs.cache
+C:\Users\erdua\source\repos\BookShelf\Bookshelf\Bookshelf.Core\obj\Debug\netcoreapp2.0\Bookshelf.Core.AssemblyInfo.cs
+C:\Users\erdua\source\repos\BookShelf\Bookshelf\Bookshelf.Core\obj\Debug\netcoreapp2.0\Bookshelf.Core.dll
+C:\Users\erdua\source\repos\BookShelf\Bookshelf\Bookshelf.Core\obj\Debug\netcoreapp2.0\Bookshelf.Core.pdb

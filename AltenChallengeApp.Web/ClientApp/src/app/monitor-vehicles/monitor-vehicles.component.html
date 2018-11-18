@@ -1,0 +1,39 @@
+<h1>Vehicles Monitor</h1>
+
+<p *ngIf="!vehicles"><em>Loading vehicles...</em></p>
+<br />
+<p *ngIf="vehicles"> Please click at any custommer's name for filtering vehicles by customers </p>
+<p *ngIf="vehicles"> Please click at any status for filtering vehicles by their status </p>
+<br />
+<p *ngIf="filtered" style="color:blue">Please refresh the page to remove filters and use real time monitoring</p>
+
+<table class='table' *ngIf="vehicles">
+  <thead>
+    <tr>
+      <th>Vehicle id</th>
+      <th>Registration Number</th>
+      <th>Customer name</th>
+      <th>Customer Country</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let vehicle of vehicles">
+      <td>{{ vehicle.id }}</td>
+      <td>{{ vehicle.registrationNumber }}</td>
+      <td>
+        <a (click)="getVehiclesByCustomer(vehicle.customerName)" style="cursor: pointer">{{ vehicle.customerName }}</a>
+      </td>
+      <td>{{ vehicle.customerCountry }}</td>
+      <td>
+        <a (click)="getVehiclesByStatus(vehicle.status)" style="cursor: pointer">
+          <span style="color: green; font-weight: bold;" *ngIf="vehicle.status; else falseIcon">Connected</span>
+        </a>
+
+        <ng-template #falseIcon>
+          <span style="color: red; font-weight: bold;">Disconnected</span>
+        </ng-template>
+      </td>
+    </tr>
+  </tbody>
+</table>

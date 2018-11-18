@@ -1,0 +1,9 @@
+D:\Projects\AltenChallengeApp\AltenChallengeApp.AzureStorage\bin\Debug\netcoreapp2.0\AltenChallengeApp.AzureStorage.deps.json
+D:\Projects\AltenChallengeApp\AltenChallengeApp.AzureStorage\bin\Debug\netcoreapp2.0\AltenChallengeApp.AzureStorage.dll
+D:\Projects\AltenChallengeApp\AltenChallengeApp.AzureStorage\bin\Debug\netcoreapp2.0\AltenChallengeApp.AzureStorage.pdb
+D:\Projects\AltenChallengeApp\AltenChallengeApp.AzureStorage\obj\Debug\netcoreapp2.0\AltenChallengeApp.AzureStorage.csprojAssemblyReference.cache
+D:\Projects\AltenChallengeApp\AltenChallengeApp.AzureStorage\obj\Debug\netcoreapp2.0\AltenChallengeApp.AzureStorage.csproj.CoreCompileInputs.cache
+D:\Projects\AltenChallengeApp\AltenChallengeApp.AzureStorage\obj\Debug\netcoreapp2.0\AltenChallengeApp.AzureStorage.AssemblyInfoInputs.cache
+D:\Projects\AltenChallengeApp\AltenChallengeApp.AzureStorage\obj\Debug\netcoreapp2.0\AltenChallengeApp.AzureStorage.AssemblyInfo.cs
+D:\Projects\AltenChallengeApp\AltenChallengeApp.AzureStorage\obj\Debug\netcoreapp2.0\AltenChallengeApp.AzureStorage.dll
+D:\Projects\AltenChallengeApp\AltenChallengeApp.AzureStorage\obj\Debug\netcoreapp2.0\AltenChallengeApp.AzureStorage.pdb
