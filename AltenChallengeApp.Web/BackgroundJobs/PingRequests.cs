@@ -43,7 +43,7 @@ namespace AltenChallengeApp.Web.BackgroundJobs
             {
                 VehicleId = vehicle.Id
             });
-            var t = client.Execute(request);
+            client.Execute(request);
         }
     }
 }
